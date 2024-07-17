@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token System (Simulation)</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="nav">
+      <div id="logo">System Simulator</div>
+    </div>
+    <div class="main">
+      <div class="sub_container">
+        <h1 id="heading1">Token System <br /><span
+            style="color:rgb(5, 83, 131);">(Simulation)</span></h1>
+        <div id="token-container">
+          <h2>Get Token</h2>
+          <p>Select a department:</p>
+          <select id="department-select">
+            <option value="cardiology">Cardiology</option>
+            <option value="neurology">Neurology</option>
+            <option value="dentistry">Dentistry</option>
+          </select>
+          <button onclick="getToken()">Get Token</button>
+          <!-- <img src="./jchsdgjd.jpg" alt="Doctors image"> -->
+          <p id="token-display"></p>
+        </div>
+      </div>
+      <div class="side_img"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

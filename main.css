@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0;
+}
+
+.nav {
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 2px solid black;
+}
+
+.sub_container {
+  width: 65vw;
+  height: auto;
+  min-height: 100vh;
+  /* margin: 0px; */
+  display: inline-block;
+}
+
+.side_img {
+  width: 30vw;
+  height: 100vh;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1em auto;
+  background-image: url('./jchsdgjd.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1em;
+  box-shadow: 2em 2em 2em 1em rgb(5, 83, 131);
+}
+
+#token-container {
+  border: 1px solid #ddd;
+  /* border: 1px solid black; */
+  padding: 1em;
+  margin: 1em;
+}
+
+#heading1 {
+  font-size: 4em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 1em auto;
+  /* border: 1px solid black; */
+  text-align: left;
+  padding-left: 0.5em;
+  /* color: rgb(5, 83, 131); */
+}
+
+#logo {
+  display: inline-block;
+  margin: 1em;
+  /* border: 1px solid black; */
+  color: rgb(54, 92, 116);
+  font-weight: bold;
+  font-size: larger;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  justify-content: center;
+  background-color: rgb(5, 83, 131);
+  border-radius: 5em;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8e7b3e;
+}
+
+#token-display {
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* img{
+    .watermark { position: relative; }
+.watermark::after { position: absolute; bottom: 0; right: 0; content: "COPYRIGHT"; }
+  } */
